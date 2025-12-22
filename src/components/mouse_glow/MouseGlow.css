@@ -1,0 +1,30 @@
+/* ============================= Mouse Glow ======================== */
+#glowing {
+  position: fixed;
+  height: 15px; /* Bigger glow */
+  width: 15px;
+  border-radius: 50%;
+  background: radial-gradient(
+    circle,
+    rgba(0, 255, 0, 1) 0%,
+    rgba(255, 255, 255, 0.8) 100%
+  );
+  box-shadow: 0px 0px 100px 20px rgba(0, 255, 0, 0.8);
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+  transition: all 0.1s ease;
+}
+
+@keyframes colorPulse {
+  0% {
+    box-shadow: 0px 0px 120px 50px rgba(207, 233, 162, 0.8);
+  }
+  100% {
+    box-shadow: 0px 0px 100px 30px rgba(0, 255, 0, 0.8);
+  }
+}
+
+#glowing {
+  animation: colorPulse 1s infinite alternate;
+}
