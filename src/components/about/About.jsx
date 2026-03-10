@@ -45,12 +45,7 @@ const About = () => {
         </div>
 
         <div className="about__content">
-          <div className="about__cards">
-            <article className='about__card'>
-              <FaUsers className='about__icon' />
-              <h5>Clients</h5>
-              <small>served client as a freelancer</small>
-            </article>
+          <div className="about__cards"> 
             <article className='about__card'>
               <VscFolderLibrary className='about__icon' />
               <h5>Projects</h5>
