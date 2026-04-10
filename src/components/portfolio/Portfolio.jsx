@@ -5,6 +5,7 @@ import { FaGithub } from 'react-icons/fa';
 import img1 from '../../assets/movie_book.png';
 import quizmaker_img from '../../assets/aiquizmaker.jpg'
 import couching_site from '../../assets/couching_site.png'
+import vidyahub from '../../assets/vidyahub.png'
 
 const data = [
   {
@@ -17,7 +18,7 @@ const data = [
   {
     id: 2,
     image: couching_site,
-    title: "Couching Website",
+    title: "Couching Site Demo",
     seeProject: "https://couching-site-demo.vercel.app/",
     github: "https://github.com/Kusaram99/Couching_site_demo"
   },
@@ -44,10 +45,10 @@ const data = [
   },
   {
     id: 6, 
-    image: "https://www.digitalsilk.com/wp-content/uploads/2020/11/website-marketing-strategy-hero-image.png",
-    title: "Marketing Website",
-    seeProject: "https://figma-html-landing-page.vercel.app/",
-    github: "https://github.com/Kusaram99/oscare-internship/tree/frontend" 
+    image: vidyahub,
+    title: "VidyaHub - Learning Platform",
+    seeProject: "https://vidyahub-three.vercel.app/",
+    github: "https://github.com/Kusaram99/VidyaHub" 
   }
 ]
 
