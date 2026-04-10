@@ -4,6 +4,7 @@ import { ExternalLink } from 'lucide-react';
 import { FaGithub } from 'react-icons/fa';
 import img1 from '../../assets/movie_book.png';
 import quizmaker_img from '../../assets/aiquizmaker.jpg'
+import couching_site from '../../assets/couching_site.png'
 
 const data = [
   {
@@ -15,10 +16,10 @@ const data = [
   },
   {
     id: 2,
-    image: "https://shorturl.at/44Yl1",
-    title: "Routine Master",
-    seeProject: "https://todo-frontend-kappa-blond.vercel.app/",
-    github: "https://github.com/kusaram99"
+    image: couching_site,
+    title: "Couching Website",
+    seeProject: "https://couching-site-demo.vercel.app/",
+    github: "https://github.com/Kusaram99/Couching_site_demo"
   },
   {
     id: 3, 

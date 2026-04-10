@@ -22,8 +22,8 @@ const CyberMatrixHero = () => {
     useEffect(() => {
         if (!isClient || !gridRef.current) return;
 
-        const grid = gridRef.current;
-        const chars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789<>/?;:"[]{}\\|!@#$%^&*()_+-=';
+        const grid = gridRef.current; 
+        const chars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789<>/?;:"[]{}\\|!@#$%^&*()_+-='; 
         let columns = 0;
         let rows = 0;
         

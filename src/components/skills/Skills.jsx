@@ -2,30 +2,38 @@ import React from 'react';
 import { motion } from 'framer-motion'
 
 import { AiFillHtml5 } from 'react-icons/ai';
-import { FaCss3Alt, FaBootstrap, FaReact, FaNodeJs, FaPython } from 'react-icons/fa';
+import { FaCss3Alt, FaBootstrap, FaReact, FaNodeJs, FaPython} from 'react-icons/fa';
 import { TbBrandJavascript, TbSql } from 'react-icons/tb';
 import { SiTailwindcss, SiExpress } from 'react-icons/si';
 import { DiMongodb } from 'react-icons/di';
 import { GrMysql } from 'react-icons/gr';
 import { VscJson } from "react-icons/vsc";
+import { FaFlutter } from "react-icons/fa6";
+import { TbBrandReactNative } from "react-icons/tb";
+import { BiLogoPostgresql } from "react-icons/bi";
+import { SiTypescript } from "react-icons/si";
 
 const skillsFrontend = [
     { name: "HTML", icon: AiFillHtml5 },
     { name: "CSS", icon: FaCss3Alt },
     { name: "JavaScript", icon: TbBrandJavascript },
+    { name: "TypeScript", icon: SiTypescript },
     { name: "React", icon: FaReact },
     { name: "Bootstrap", icon: FaBootstrap },
     { name: "Tailwind UI", icon: SiTailwindcss },
+    { name: "React Native", icon: TbBrandReactNative },
+    { name: "Flutter", icon: FaFlutter },
 ];
 
 const skillsBackend = [
     { name: "NodeJS", icon: FaNodeJs },
-    { name: "MongoDB", icon: DiMongodb },
     { name: "ExpressJS", icon: SiExpress },
-    { name: "MySQL", icon: GrMysql },
     { name: "Jwt", icon: VscJson },
     { name: "SQL", icon: TbSql },
     { name: "Python", icon: FaPython },
+    { name: "MySQL", icon: GrMysql },
+    { name: "MongoDB", icon: DiMongodb },
+    { name: "PostgreSQL", icon: BiLogoPostgresql },
 ];
 
 const Skills = () => {
